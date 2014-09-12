@@ -1,5 +1,5 @@
 auto(10000)
-if getuseroption("Skill") == "Club" and getuseroption("OfflineTrain") then
+if getuseroption("Skill") == 'Club' and getuseroption("OfflineTrain") then
 			reachgrounditem(16200)
 			wait(200, 500)
 			useitem(16200, 'ground')
