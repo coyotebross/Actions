@@ -1,0 +1,16 @@
+auto(10000)
+if getuseroption("Skill") == "Club" and getuseroption("OfflineTrain") then
+			reachgrounditem(16200)
+			wait(200, 500)
+			useitem(16200, 'ground')
+end
+if getuseroption("Skill") == "Axe" and getuseroption("OfflineTrain") then
+			reachgrounditem(16199)
+			wait(200, 500)
+			useitem(16199, 'ground')
+end
+if getuseroption("Skill") == "Sword" and getuseroption("OfflineTrain") then
+			reachgrounditem(16198)
+			wait(200, 500)
+			useitem(16198, 'ground')
+end
